@@ -4,9 +4,40 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <script defer src="/src/js/script.js"></script>
+        <script src="https://kit.fontawesome.com/34a5024836.js" crossorigin="anonymous"></script>
+        
         <link rel="stylesheet" href="src/css/stylesheet.css">
     </head>
     <body>
-        
+        <div class="todo">
+        <header>
+            <div class="todo__title">
+                <h1>Quatre's todo list</h1>
+            </div>
+            <form action="submit" class="todo__submit">
+                <input type="text" class="todo__input" placeholder="add a todo">
+                <button class="btn add__btn">
+                    <i class="fas fa-plus"></i>
+                    <span>Add</span>
+                </button>
+            </form>
+        </header>
+        <section class="todo__section">
+            <ul class="todo__items">
+                <li class="todo__item">
+                        <span class="todo__checked hidden"><i class="fas fa-check" ></i></span>
+                        <p  class="todo__p">Todo</p>
+                        <span class="todo__close"><i class="fas fa-window-close"></i></span>
+                </li>
+                <!-- <li class="todo__completed">
+                    <i class="fas fa-check"></i>
+                    <p class="todo__p">Todo</p>
+                    <span class="todo__close"><i class="fas fa-window-close"></i></span>
+                </li> -->
+
+            </ul>
+
+        </section>
+    </div>
     </body>
 </html>
