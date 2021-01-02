@@ -126,14 +126,17 @@ li:hover {
 .todo__close {
   margin-left: auto;
 }
-.todo__close:hover {
-  background-color: rgba(219, 16, 16, 0.746);
-  color: white;
+.fa-window-close:hover {
+  color: rgba(219, 16, 16, 0.746);
 }
 
 .hidden {
   visibility: hidden;
 }
+
+/* .todo__checked {
+  visibility: hidden;
+} */
 
 .checked {
   text-decoration: line-through;
